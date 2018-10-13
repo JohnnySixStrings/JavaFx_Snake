@@ -1,0 +1,47 @@
+.button{
+    -fx-background-color: azure;
+    -fx-text-fill: black;
+    -fx-font-family: fantasy;
+    -fx-font-size: 17;
+}
+.button:hover{
+    -fx-background-color: black;
+    -fx-text-fill: red;
+    -fx-effect: dropshadow(gaussian, maroon, 10, 0.3, 5, 5);
+
+}
+.label{
+    -fx-font-size: 17;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.title{
+    -fx-font-size: 30;
+    -fx-text-fill: black;
+    -fx-font-weight: 400;
+    -fx-effect: dropshadow(gaussian, maroon , 10, .4, 3, 3);
+
+}
+.slider{
+    -fx-block-increment: .01;
+    -fx-major-tick-unit: 0.5;
+}
+.text-field{
+    -fx-background-color: transparent;
+    -fx-text-fill: Blue;
+    -fx-font-family: monospace;
+    -fx-font-size: 18;
+
+}
+.text-field .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-field .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-field .scroll-pane .content{
+    -fx-background-color: transparent;
+}
